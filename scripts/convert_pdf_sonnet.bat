@@ -6,4 +6,4 @@ if "%ANTHROPIC_API_KEY%"=="" (
     pause
     exit /b 1
 )
-C:\Users\drewa\AppData\Local\Programs\Python\Python312\python.exe "%~dp0pdf_to_markdown_sonnet.py" %*
+cd "%~dp0.." && C:\Users\drewa\AppData\Local\Programs\Python\Python312\python.exe -m src.converters.pdf_to_markdown_sonnet %*

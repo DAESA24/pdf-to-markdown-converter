@@ -8,7 +8,7 @@ Strategy: Combine OCR extraction with comparison engine for full validation
 import sys
 import os
 import time
-from text_comparison_engine import TextComparisonEngine
+from ..utils.text_comparison_engine import TextComparisonEngine
 
 def extract_pdf_text_ocr(pdf_path, output_file="extracted_pdf_text.txt", max_pages=5):
     """Extract text from PDF using OCR and save to file"""

@@ -25,6 +25,22 @@ This project provides a complete solution for converting PDF documents to high-q
 - **Business-Focused Metrics**: Prioritized validation based on business needs
 - **Diagnostic Tools**: PDF structure analysis and OCR capabilities testing
 
+## Project Structure
+
+```
+pdf-to-markdown-converter/
+├── src/                    # Main source code
+│   ├── converters/         # PDF conversion modules
+│   ├── validators/         # Validation systems
+│   ├── extractors/         # OCR and text extraction
+│   └── utils/              # Helper utilities
+├── scripts/                # Automation and batch files
+├── tests/                  # Test suites
+├── docs/                   # Documentation
+├── config/                 # Configuration files
+└── checkpoints/            # Development checkpoints
+```
+
 ## Quick Start
 
 ### Prerequisites
