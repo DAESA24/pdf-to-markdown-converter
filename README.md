@@ -55,23 +55,23 @@ pip install PyPDF2 pdfplumber PyMuPDF easyocr anthropic
 # Set your Claude API key
 set ANTHROPIC_API_KEY=your_key_here
 
-# Convert PDF
-python pdf_to_markdown_sonnet.py "path/to/your/document.pdf"
+# Convert PDF using module
+python -m src.converters.pdf_to_markdown_sonnet "path/to/your/document.pdf"
 ```
 
 **2. Validate conversion quality:**
 ```bash
 # Run complete validation
-python pdf_validation_system.py
+python -m src.validators.pdf_validation_system
 ```
 
 **3. Use batch processing:**
 ```bash
-# Windows
-convert_pdf_sonnet.bat "path/to/your/document.pdf"
+# Windows - scripts handle the module paths
+scripts\convert_pdf_sonnet.bat "path/to/your/document.pdf"
 
 # Validation
-run_full_validation.bat
+scripts\run_full_validation.bat
 ```
 
 ## Project Structure
