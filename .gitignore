@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific security exclusions
+*.env
+.env.*
+env_*.txt
+*_api_key.txt
+*_api_key.py
+config.py
+secrets.py
+credentials.json
+*.pem
+*.key
+
+# Test outputs and temporary files
+extracted_pdf_text.txt
+full_scope_ocr_text.txt
+mock_*.md
+mock_*.txt
+ocr_test_output.txt
+validation_report*.txt
+word_fidelity_report.txt
+quality_analysis_report.md
+*_output.txt
+*_output.md
+
+# Batch files with potential hardcoded keys (we'll use secure versions)
+*.bat.bak
+*.bat.old
