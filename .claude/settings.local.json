@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude settings)",
+      "Read(//c/Users/drewa/**)",
+      "Bash(pwd:*)",
+      "WebFetch(domain:support.anthropic.com)",
+      "Bash(claude doctor)",
+      "Bash(claude --version)",
+      "Bash(python:*)",
+      "Bash(gh:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Read(//c/c/Users/drewa/**)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
