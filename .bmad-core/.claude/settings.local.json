@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/drewa/Claude Code/Random Artifacts/**)",
+      "Read(//c/Users/drewa/Claude Code/**)",
+      "Read(//c/Users/drewa/Claude Code/python-projects/pdf-to-markdown-github/**)",
+      "Read(//c/Users/drewa/Claude Code/python-projects/**)",
+      "Bash(cd:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
