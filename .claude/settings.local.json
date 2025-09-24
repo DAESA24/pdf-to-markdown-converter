@@ -2,7 +2,7 @@
   "permissions": {
     "allow": [
       "Bash(claude settings)",
-      "Read(//c/Users/drewa/**)",
+      "Read(//**)",
       "Bash(pwd:*)",
       "WebFetch(domain:support.anthropic.com)",
       "Bash(claude doctor)",
@@ -12,7 +12,7 @@
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login)",
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
-      "Read(//c/c/Users/drewa/**)",
+      "Read(//**)",
       "Bash(git checkout:*)",
       "Bash(git add:*)",
       "Bash(claude config --help)",

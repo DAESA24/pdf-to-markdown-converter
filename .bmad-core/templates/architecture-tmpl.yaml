@@ -140,6 +140,7 @@ sections:
       - Starter templates (if any)
       - Languages and runtimes with exact versions
       - Frameworks and libraries / packages
+      - Package managers (UV for Python projects recommended for performance, npm for Node.js)
       - Cloud provider and key services choices
       - Database and storage solutions - if unclear suggest sql or nosql or other types depending on the project and depending on cloud provider offer a suggestion
       - Development tools
@@ -162,6 +163,8 @@ sections:
           - "| **Language** | TypeScript | 5.3.3 | Primary development language | Strong typing, excellent tooling, team expertise |"
           - "| **Runtime** | Node.js | 20.11.0 | JavaScript runtime | LTS version, stable performance, wide ecosystem |"
           - "| **Framework** | NestJS | 10.3.2 | Backend framework | Enterprise-ready, good DI, matches team patterns |"
+          - "| **Package Manager** | UV | 0.8.19 | Python package management | 10-100x faster than pip, universal lockfiles, VS Code compatible |"
+          - "| **Package Manager** | npm | 10.x | Node.js package management | Standard Node.js package manager, mature ecosystem |"
 
   - id: data-models
     title: Data Models
