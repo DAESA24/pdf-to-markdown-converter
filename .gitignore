@@ -233,3 +233,4 @@ quality_analysis_report.md
 # Batch files with potential hardcoded keys (we'll use secure versions)
 *.bat.bak
 *.bat.old
+desktop.ini
