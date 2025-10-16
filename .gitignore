@@ -234,3 +234,6 @@ quality_analysis_report.md
 *.bat.bak
 *.bat.old
 desktop.ini
+
+# User content and media files
+user-context/
